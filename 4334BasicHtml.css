@@ -1,0 +1,144 @@
+#container {
+  margin: 10px auto;
+  padding: 10px auto;
+  height: 950px;
+  width: 950px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.name_box {
+  height: 200px;
+  width: 350px;
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.name_box h1 {
+  font-size: 40px;
+  margin: 0;
+  padding-left: 10px;
+}
+.name_box h2 {
+  font-size: 17px;
+  margin: 0;
+  font-style: italic;
+  padding-left: 17px;
+}
+.name_box ul li {
+  font-size: 14px;
+  text-align: left;
+}
+.name_box .link a {
+  color: black;
+}
+.pic img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid grey;
+  background-color: grey;
+  margin-top: 40px;
+}
+.details {
+  height: 380px;
+  width: 750px;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+  background-color: lightgrey;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 2px;
+  justify-content: space-between;
+}
+.profile .prhead {
+  text-align: right;
+  font-style: italic;
+  margin-left: 35px;
+}
+.profile .prpara {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  padding: 2px;
+}
+.skills .skihead {
+  text-align: right;
+  font-style: italic;
+  margin-left: 40px;
+  width: 20px;
+}
+.skills .skilist {
+  margin-left: 30px;
+  margin-right: 20px;
+  flex: 0.8 1 100px;
+
+  text-align: left;
+}
+.skills .skilist .twoCol {
+  column-count: 2;
+}
+.skills ul > li {
+  list-style-type: square;
+}
+.skills li::marker {
+  color: green;
+}
+.exp {
+  display: flex;
+  flex-direction: row;
+}
+.exphead {
+  text-align: right;
+  font-style: italic;
+  margin-left: 4px;
+}
+.expcontent {
+  margin-left: 30px;
+  margin-right: 20px;
+  text-align: justify;
+  line-height: 15px;
+}
+#companyName {
+  color: green;
+  margin: 0 0 0 2px;
+}
+.expcontent h3 {
+  margin-bottom: 5px;
+  padding: 0;
+}
+#year {
+  margin: 0 0 0 2px;
+}
+
+.eduTable {
+  height: 300px;
+  width: 750px;
+}
+th,
+td {
+  padding: 15px;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 750px;
+  height: 150px;
+}
+td {
+  text-align: center;
+}
